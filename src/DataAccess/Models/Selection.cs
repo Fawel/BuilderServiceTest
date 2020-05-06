@@ -9,5 +9,13 @@ namespace DataAccess.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public bool IsActive { get; set; }
+        public SelectionType Type { get; set; }
+        public bool IsTest { get; set; }
+    }
+
+    public enum SelectionType
+    {
+        Toyka,
+        Subimaru
     }
 }
