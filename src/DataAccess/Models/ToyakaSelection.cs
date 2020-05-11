@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DataAccess.Models
 {
-    public class ToykaSelection
+    public class ToyakaSelection
     {
         [Key]
         public int Id { get; set; }
